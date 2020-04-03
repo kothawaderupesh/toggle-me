@@ -1,5 +1,6 @@
 var path = require('path');
 
+
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
@@ -9,12 +10,12 @@ module.exports = {
     mode: 'development',
     output: {
         path: __dirname,
-        filename: 'static/built/bundle.js'
+        filename: 'public/static/built/bundle.js'
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'static/built/[name].css',
-            chunkFilename: 'static/built/[id].css'
+            filename: 'public/static/built/[name].css',
+            chunkFilename: 'public/static/built/[id].css'
         }),
     ]
 
