@@ -70,7 +70,7 @@
 				<version>1.6</version>
 				<configuration>
 					<installDirectory>target</installDirectory>
-					<workingDirectory>src/main/resources</workingDirectory>
+					<workingDirectory>src/main/</workingDirectory>
 					<nodeVersion>v10.11.0</nodeVersion>
 					<npmVersion>6.4.1</npmVersion>
 				</configuration>
